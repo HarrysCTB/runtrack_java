@@ -4,7 +4,7 @@ public class VoitureTest {
     private String marque;
     private String couleur;
     public static void main(String[] args) {
-        VoitureTest object = new VoitureTest(30, "Audi", "Bleu");
+        VoitureTest object = new VoitureTest(0, "Audi", "Bleu");
         object.demarrer();
         object.accelerer();
         object.accelerer();
