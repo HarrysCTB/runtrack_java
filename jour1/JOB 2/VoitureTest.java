@@ -6,7 +6,9 @@ public class VoitureTest {
     public static void main(String[] args) {
         VoitureTest object = new VoitureTest(30, "Audi", "Bleu");
         object.demarrer();
-
+        object.accelerer();
+        object.accelerer();
+        object.frein();
     }
 
     public VoitureTest(int vitesse, String marque, String couleur) {
